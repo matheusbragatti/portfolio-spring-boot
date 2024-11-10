@@ -2,7 +2,9 @@ package br.com.math.revisitor.entity;
 
 import br.com.math.revisitor.DTO.EnderecoDTO;
 import jakarta.persistence.Embeddable;
+import lombok.Data;
 
+@Data
 @Embeddable
 public class Endereco {
     private String logradouro;

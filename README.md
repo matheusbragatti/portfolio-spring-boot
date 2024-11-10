@@ -6,5 +6,5 @@
 Tech:
 
 Spring family:
-    Web,Validation,Data,JPA
-MySQL, Flyway, Lombok, Swagger, H2, 
+    Web,Validation,Data,JPA, Security
+MySQL, Flyway, Lombok, Swagger, H2, REST

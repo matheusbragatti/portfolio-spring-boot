@@ -1,6 +1,7 @@
 package br.com.math.revisitor.DTO;
 
 import br.com.math.revisitor.entity.Especialidade;
+import br.com.math.revisitor.entity.Medico;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -22,8 +23,8 @@ public record MedicoDTO(
         @NotNull
         @Valid
         EnderecoDTO endereco)
-{
 
+{
 
 
 }
